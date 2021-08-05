@@ -1,0 +1,139 @@
+body {
+  background-color: pink;
+  overflow: hidden;
+  position: relative;
+}
+section {
+  position: relative;
+}
+.sun {
+  transition: all 0.5s;
+  animation: sun 5s;
+}
+.sun.center {
+  transform: translateX(730px);
+}
+.sun.down {
+  transform: translateX(1920px);
+}
+.home {
+  width: 500px;
+  position: fixed;
+  bottom: -44px;
+  left: 0;
+}
+.company {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 700px;
+}
+.chayxe {
+  position: fixed;
+  transform: rotateY(160deg) translateX(-1600px);
+  bottom: 0;
+  left: 0%;
+  opacity: 0;
+}
+.ship {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  transform: rotateY(160deg) translateX(-200px);
+}
+.ship.run {
+  transition: all 0.5s;
+  animation: ship 5s;
+  opacity: 1;
+  z-index: 2;
+}
+.chayxe.run {
+  transition: all 0.5s;
+  animation: go 5s;
+  opacity: 1;
+  z-index: 2;
+}
+@keyframes go {
+  0% {
+    transform: rotateY(160deg) translateX(0px);
+  }
+  25% {
+    transform: rotateY(160deg) translateX(-1600px);
+  }
+}
+@keyframes sun {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.lamviec,
+.lamviec1 {
+  position: fixed;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+.chuphinh {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.chuphinh1 {
+  position: fixed;
+  left: 0%;
+  bottom: -20px;
+  transform: translateX(0%);
+}
+.nhay {
+  position: fixed;
+  right: 0%;
+  bottom: -60px;
+  transform: translateX(0%);
+}
+.ok {
+  position: fixed;
+  right: 0%;
+  bottom: -20px;
+  transform: translateX(0%);
+}
+.tim {
+  position: fixed;
+  right: 0%;
+  bottom: -5px;
+  transform: translateX(0%);
+}
+.section img {
+  display: none;
+}
+.nhacsan {
+  position: fixed;
+  width: 400px;
+  left: 100px;
+  bottom: 0;
+}
+.nhanbanh {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 470px;
+}
+.traobanh {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lamviec1 {
+  display: none;
+}
+audio {
+  /* opacity: 0;
+  position: fixed;
+  visibility: hidden; */
+}
