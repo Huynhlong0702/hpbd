@@ -5,10 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <section class="section">
+    <audio id="automp3">
+      <source src="assets/mp3/khuchatmungsingnhat.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <section class="section0">
+      <div class="box-message">
+        <div class="text-box"></div>
+      </div>
+    </section>
+    <section class="section" style="display: none">
       <img
         src="assets/images/lamviec.gif"
         alt=""
@@ -147,67 +162,79 @@
         style="width: 500px"
         class="lamviec1"
       />
-      <audio id="automp3">
-        <source src="assets/mp3/khuchatmungsingnhat.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <script>
+      var options = {
+        strings: [
+          "<p>Hi, Chào cậu</p><p>Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><div><button class='btn-continue'>Tiếp theo</button></div>",
+        ],
+        typeSpeed: 40,
+      };
+
+      var typed = new Typed(".text-box", options);
       // setTimeout(() => {
       //   $(".sun").addClass("center");
       //   setTimeout(() => {
       //     $(".sun").addClass("down");
       //   }, 5000);
       // });
-      $(".lamviec").show();
-      setTimeout(() => {
-        $(".lamviec").fadeOut();
-        $(".chuphinh").show(100, function () {
-          setTimeout(() => {
-            $(".chuphinh").fadeOut();
-            $(".chuphinh1, .nhay").show(100, () => {
-              setTimeout(() => {
-                $(".nhay").hide(500, () => {});
-                $(".ok").show(100, () => {
-                  setTimeout(() => {
-                    $(".section").fadeOut();
-                    $(".section1").show(100, function () {
-                      setTimeout(() => {
-                        $(".chayxe").addClass("run");
-                        setTimeout(() => {
-                          $(".section1").fadeOut(100, () => {
-                            $(".section2").fadeIn(1000, () => {
-                              $("#automp3").get(0).play();
 
-                              setTimeout(() => {
-                                $(".nhacsan, .traobanh, .nhanbanh").hide(
-                                  1000,
-                                  () => {
-                                    $(".lamviec1").show(2000, () => {
-                                      setTimeout(() => {
-                                        $(".lamviec1").hide();
-                                      }, 5000);
-                                    });
-                                  }
-                                );
-                              }, 5000);
-                            });
-                          });
-                        }, 1000);
+      $(document).on("click", ".btn-continue", function () {
+        $(".section0").fadeOut("slow", function () {
+          $(".section").show();
+          // $(".lamviec").show();
+          setTimeout(() => {
+            $(".lamviec").fadeOut();
+            $(".chuphinh").show(100, function () {
+              setTimeout(() => {
+                $(".chuphinh").fadeOut();
+                $(".chuphinh1, .nhay").show(100, () => {
+                  setTimeout(() => {
+                    $(".nhay").hide(500, () => {});
+                    $(".ok").show(100, () => {
+                      setTimeout(() => {
+                        $(".section").fadeOut();
+                        $(".section1").show(100, function () {
+                          setTimeout(() => {
+                            $(".chayxe").addClass("run");
+                            setTimeout(() => {
+                              $(".section1").fadeOut(100, () => {
+                                $(".section2").fadeIn(1000, () => {
+                                  $("#automp3").get(0).play();
+                                  setTimeout(() => {
+                                    $(".nhacsan, .traobanh, .nhanbanh").hide(
+                                      1000,
+                                      () => {
+                                        $(".lamviec1").show(2000, () => {
+                                          setTimeout(() => {
+                                            $(".lamviec1").hide();
+                                          }, 5000);
+                                        });
+                                      }
+                                    );
+                                  }, 5000);
+                                });
+                              });
+                            }, 1000);
+                          }, 3000);
+                        });
                       }, 3000);
                     });
-                  }, 3000);
+                  }, 1000);
                 });
-              }, 1000);
+              }, 2000);
             });
-          }, 2000);
+          }, 100);
         });
-      }, 2000);
 
-      setTimeout(() => {
-        $(".chayxe").addClass("run");
-      }, 1000);
+        // setTimeout(() => {
+        //   $(".chayxe").addClass("run");
+        // }, 1000);
+      });
+
       //   }, 5000);
     </script>
   </body>

@@ -2,6 +2,10 @@ body {
   background-color: pink;
   overflow: hidden;
   position: relative;
+  font-family: "Style Script", cursive;
+}
+p {
+  margin: 15px 0;
 }
 section {
   position: relative;
@@ -136,4 +140,19 @@ audio {
   /* opacity: 0;
   position: fixed;
   visibility: hidden; */
+}
+.box-message {
+  position: fixed;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  top: 30px;
+  background: #fd9fb0;
+  display: block;
+  margin: auto;
+  padding: 50px;
+  z-index: 9;
+}
+.text-box {
+  font-size: 80px;
 }
