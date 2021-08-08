@@ -1,241 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <audio id="automp3">
-      <source src="assets/mp3/khuchatmungsingnhat.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
-    <section class="section0">
-      <div class="box-message">
-        <div class="text-box"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet" />
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <audio id="automp3">
+    <source src="assets/mp3/khuchatmungsingnhat.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="loichuc">
+    <source src="assets/mp3/loichhuc.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <section class="section0" style="display: block;">
+    <div class="box-message">
+      <img src="assets/images/panda.png" class="panda-left">
+      <img src="assets/images/panda1.png" class="panda-right">
+      <div class="text-box"></div>
+    </div>
+  </section>
+
+  <section class="section" style="display: none">
+    <div class="popup1">
+      <p>Hé lô @moinguoi,</p>
+      <p>Mình là abc đây. Hôm nay mình sẽ bắt đầu làm vlog 1 ngày làm việc của abc nào. Lét gô :)</p>
+    </div>
+    <img src="assets/images/lamviec.gif" alt="" style="width: 440px" class="lamviec" />
+    <img src="assets/images/chuphinh.gif" alt="" style="width: 440px; display: none" class="chuphinh" />
+    <img src="assets/images/chuphinh1.gif" alt="" style="width: 440px" class="chuphinh1" />
+    <img src="assets/images/nhay.gif" alt="" style="width: 440px" class="nhay" />
+    <img src="assets/images/ok.gif" alt="" style="width: 400px" class="ok" />
+    <img src="assets/images/tim.gif" alt="" style="width: 400px" class="tim" loop="infinite" />
+  </section>
+
+  <section class="section1" style="display: none">
+    <img src="assets/images/home.png" alt="" style="width: 500px" class="home" />
+    <img src="assets/images/nhanhang.gif" alt="" class="nhanhang" />
+    <img src="assets/images/sun.gif" alt="" style="width: 200px" class="sun" />
+    <img src="assets/images/ngunuong.gif" alt="" style="width: 500px" class="goodnight" />
+    <img src="assets/images/chayxe.gif" alt="" style="width: 150px" class="chayxe" />
+    <img src="assets/images/giphy.gif" alt="" style="width: 200px" class="ship" />
+    <img src="assets/images/company.png" class="company" />
+  </section>
+
+  <section class="section2" style="display: none">
+    <img src="assets/images/5b3cb514dfeecf468adbd4284639f015.gif" class="nhacsan" alt="" />
+    <img src="assets/images/576eaa5fd28deb6f7d0072cf4cb6823d.gif" class="traobanh" alt="" />
+    <img src="assets/images/a1d78d5683784af464cab8a1970a55a8.gif" class="nhanbanh" alt="" />
+    <img src="assets/images/lamviec.gif" alt="" style="width: 500px" class="lamviec1" />
+  </section>
+
+  <section class="section3" style="display: none;">
+    <div id="wowslider-container1">
+      <div class="ws_images">
+        <ul>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+          <li><img src="assets/images/slider.jpg" /></li>
+        </ul>
       </div>
-    </section>
-    <section class="section" style="display: none">
-      <img
-        src="assets/images/lamviec.gif"
-        alt=""
-        style="width: 500px"
-        class="lamviec"
-      />
-      <img
-        src="assets/images/chuphinh.gif"
-        alt=""
-        style="width: 500px; display: none"
-        class="chuphinh"
-      />
-      <img
-        src="assets/images/chuphinh1.gif"
-        alt=""
-        style="width: 500px"
-        class="chuphinh1"
-      />
-      <img
-        src="assets/images/nhay.gif"
-        alt=""
-        style="width: 500px"
-        class="nhay"
-      />
-      <img src="assets/images/ok.gif" alt="" style="width: 400px" class="ok" />
-      <img
-        src="assets/images/tim.gif"
-        alt=""
-        style="width: 400px"
-        class="tim"
-        loop="infinite"
-      />
-    </section>
-    <section class="section1" style="display: none">
-      <img
-        src="assets/images/home.png"
-        alt=""
-        style="width: 500px"
-        class="home"
-      />
-      <img
-        src="assets/images/cloud.gif"
-        alt=""
-        style="width: 200px"
-        class="sun"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud1"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud1"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud1"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud1"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud1"
-      />
-      <img
-        src="assets/images/cloud1.gif"
-        alt=""
-        style="width: 200px"
-        class="cloud1"
-      />
-      <img
-        src="assets/images/chayxe.gif"
-        alt=""
-        style="width: 200px"
-        class="chayxe"
-      />
-      <img
-        src="assets/images/giphy.gif"
-        alt=""
-        style="width: 200px"
-        class="ship"
-      />
-      <img src="assets/images/company.png" class="company" />
-      <!-- <img
-        src="assets/images/ngu.gif"
-        alt=""
-        style="
-          position: fixed;
-          bottom: 0;
-          left: 0;
-          display: inline-block;
-          width: 300px;
-          transform: rotateY(160deg);
-          transform-style: preserve-3d;
-        "
-        class="__web-inspector-hide-shortcut__"
-      /> -->
-    </section>
-    <section class="section2" style="display: none">
-      <img
-        src="assets/images/5b3cb514dfeecf468adbd4284639f015.gif"
-        class="nhacsan"
-        alt=""
-      />
-      <img
-        src="assets/images/576eaa5fd28deb6f7d0072cf4cb6823d.gif"
-        class="traobanh"
-        alt=""
-      />
-      <img
-        src="assets/images/a1d78d5683784af464cab8a1970a55a8.gif"
-        class="nhanbanh"
-        alt=""
-      />
-      <img
-        src="assets/images/lamviec.gif"
-        alt=""
-        style="width: 500px"
-        class="lamviec1"
-      />
-    </section>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    </div>
+    <div class="the-end">
+      <div class="text">
 
-    <script>
-      var options = {
-        strings: [
-          "<p>Hi, Chào cậu</p><p>Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><div><button class='btn-continue'>Tiếp theo</button></div>",
-        ],
-        typeSpeed: 40,
-      };
+      </div>
+    </div>
+  </section>
 
-      var typed = new Typed(".text-box", options);
-      // setTimeout(() => {
-      //   $(".sun").addClass("center");
-      //   setTimeout(() => {
-      //     $(".sun").addClass("down");
-      //   }, 5000);
-      // });
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/wowslider.js"></script>
+  <script src="assets/js/script.js"></script>
 
-      $(document).on("click", ".btn-continue", function () {
-        $(".section0").fadeOut("slow", function () {
-          $(".section").show();
-          // $(".lamviec").show();
-          setTimeout(() => {
-            $(".lamviec").fadeOut();
-            $(".chuphinh").show(100, function () {
-              setTimeout(() => {
-                $(".chuphinh").fadeOut();
-                $(".chuphinh1, .nhay").show(100, () => {
-                  setTimeout(() => {
-                    $(".nhay").hide(500, () => {});
-                    $(".ok").show(100, () => {
-                      setTimeout(() => {
-                        $(".section").fadeOut();
-                        $(".section1").show(100, function () {
-                          setTimeout(() => {
-                            $(".chayxe").addClass("run");
-                            setTimeout(() => {
-                              $(".section1").fadeOut(100, () => {
-                                $(".section2").fadeIn(1000, () => {
-                                  $("#automp3").get(0).play();
-                                  setTimeout(() => {
-                                    $(".nhacsan, .traobanh, .nhanbanh").hide(
-                                      1000,
-                                      () => {
-                                        $(".lamviec1").show(2000, () => {
-                                          setTimeout(() => {
-                                            $(".lamviec1").hide();
-                                          }, 5000);
-                                        });
-                                      }
-                                    );
-                                  }, 5000);
-                                });
-                              });
-                            }, 1000);
-                          }, 3000);
-                        });
-                      }, 3000);
-                    });
-                  }, 1000);
-                });
-              }, 2000);
-            });
-          }, 100);
-        });
 
-        // setTimeout(() => {
-        //   $(".chayxe").addClass("run");
-        // }, 1000);
-      });
+</body>
 
-      //   }, 5000);
-    </script>
-  </body>
 </html>
