@@ -13,7 +13,12 @@ $(document).on("click", ".no", function () {
     window.location.href = "https://www.google.com.vn/";
 });
 
+jQuery(document).ready(function ($) {
+    $("#intro").get(0).play();
+})
+
 $(document).on("click", ".btn-continue", function () {
+
     $(".section0").fadeOut(1000, function () {
         function section1() {
             $(".section").show();
@@ -51,7 +56,9 @@ $(document).on("click", ".btn-continue", function () {
             $(".section").fadeOut('slow', () => {
                 $(".section1").fadeIn(100, function () {
                     $('.goodnight').fadeIn();
+                    $('.popup1').show().html('<p>Pp. Thi Thi đi ngủ đây :)</p>');
                     setTimeout(() => {
+                        $('.popup1').hide();
                         $('.goodnight').fadeOut('slow', () => {
                             $('.home').fadeIn('500', () => {
                                 $('.company').fadeIn('500', () => {
@@ -70,23 +77,23 @@ $(document).on("click", ".btn-continue", function () {
                                 });
                             });
                         });
-                    }, 1000);
+                    }, 5000);
                 })
             });
         }
 
         function section3() {
             setTimeout(() => {
-                $(".section1").fadeOut(100, () => {
+                $(".section1").fadeOut(1000, () => {
+                    $("#intro").get(0).pause();
                     $(".section2").fadeIn(1000, () => {
                         $("#automp3").get(0).play();
                         setTimeout(() => {
                             $('.section2').hide();
                             $('.section3').show();
                             setTimeout(() => {
-                                $('.section3').hide();
+                                $('#wowslider-container1').hide();
                                 $('.the-end').show();
-                                $("#loichuc").get(0).play();
                             }, 80000);
                         }, 5000);
                     });

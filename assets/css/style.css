@@ -53,6 +53,10 @@ audio {
   bottom: -23px;
 }
 
+button{
+  cursor: pointer;
+}
+
 .btn-continue {
   background: #ff5c79;
   padding: 10px 20px;
@@ -334,6 +338,9 @@ audio {
   max-width: none;
   padding: 0;
   margin: 0;
+  /* height: 1754px;
+  min-height: 1754px;
+  object-fit: cover; */
 }
 
 #wowslider-container1 a.ws_next,
@@ -369,4 +376,12 @@ audio {
   cursor: -moz-grabbing;
   cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAABaSURBVEjH7ZMxCkAhDEOT8u9/5TpJ+xWkFse8IYutJgEB8RCHL1qCc90BEFnT6QH7mwgFHBUf8wJyS1TDLuc3vmighx37LZdIth3E5hKj9n6O0HRh+oJCiFcMxRUUDxR1CTMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTQtMDctMDdUMTM6NDk6MzgrMDI6MDDqf+sOAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE0LTA3LTA3VDEzOjQ5OjM4KzAyOjAwmyJTsgAAAABJRU5ErkJggg=="),
     move;
+}
+
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(../images/hoa.png);
+  background-size: 100% 100%;
 }
