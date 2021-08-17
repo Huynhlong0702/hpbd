@@ -207,28 +207,15 @@ button{
 
 .chuphinh1 {
   position: fixed;
-  left: 0%;
+  left: 18%;
   bottom: -20px;
   transform: translateX(0%);
 }
 
-.nhay {
-  position: fixed;
-  right: 0%;
-  bottom: -60px;
-  transform: translateX(0%);
-}
 
-.ok {
+.images img{
   position: fixed;
-  right: 0%;
-  bottom: -20px;
-  transform: translateX(0%);
-}
-
-.tim {
-  position: fixed;
-  right: 0%;
+  right: 18%;
   bottom: -5px;
   transform: translateX(0%);
 }
@@ -246,16 +233,28 @@ button{
 
 .nhanbanh {
   position: fixed;
-  top: 0;
-  right: 0;
-  width: 470px;
+  bottom: -13px;
+  right: 13%;
+  width: 350px;
 }
 
 .traobanh {
   position: fixed;
-  top: 50%;
+  bottom: -18px;
+  left: 0;
+}
+.traobanh.active{
+  animation: traobanh 10s;
   left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+@keyframes traobanh {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
 }
 
 .lamviec1 {
@@ -384,4 +383,60 @@ button{
   position:absolute;
   background: url(../images/hoa.png);
   background-size: 100% 100%;
+}
+
+.date{
+  font-size: 5rem;
+  position: fixed;
+  top: 300px;
+  left: 200px;
+}
+
+.date span{
+  display: inline-block;
+  color: #FF0084;
+  animation: text .7s infinite;
+  animation-delay: .2s;
+  font-weight: 900;
+}
+.date span:nth-child(2){
+  animation-delay: .4s;
+}
+.date span:nth-child(3){
+  animation-delay: .6s;
+}
+.date span:nth-child(4){
+  animation-delay: .8s;
+}
+.date span:nth-child(5){
+  animation-delay: 1s;
+}
+.date span:nth-child(6){
+  animation-delay: 1.2s;
+}
+.date span:nth-child(7){
+  animation-delay: 1.4s;
+}
+.date span:nth-child(8){
+  animation-delay: 1.6s;
+}
+.date span:nth-child(9){
+  animation-delay: 1.8s;
+}
+@keyframes text {
+  0%{
+    color: #FF0084;
+  }
+  25%{
+    color: #FFFC00;
+  }
+  50%{
+    color: #FF5700;
+  }
+  75%{
+    color: #FF3300;
+  }
+  100%{
+    color: #F94877;
+  }
 }
