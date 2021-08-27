@@ -1,1 +1,133 @@
-var _0xae4a = ["\x3C\x70\x3E\x48\x69\x2C\x3C\x2F\x70\x3E\x3C\x70\x3E\x43\x68\xE0\x6F\x20\x6D\u1EEB\x6E\x67\x20\x63\xF4\x6E\x67\x20\x74\xFA\x61\x20\u0111\xE3\x20\u0111\u1EBF\x6E\x20\x76\u1EDB\x69\x20\x77\x65\x62\x73\x69\x74\x65\x20\x6E\xE0\x79\x2E\x20\x4B\x68\xF4\x6E\x67\x20\x62\x69\u1EBF\x74\x20\x6E\xF3\x20\x63\xF3\x20\x68\u1EEF\x75\x20\xED\x63\x68\x20\x67\xEC\x20\x68\x61\x79\x20\u0111\x65\x6D\x20\x6C\u1EA1\x69\x20\x6E\x69\u1EC1\x6D\x20\x76\x75\x69\x20\x68\x61\x79\x20\x67\xEC\x20\x67\xEC\x20\u0111\xF3\x20\x68\x61\x79\x20\x6B\x68\xF4\x6E\x67\x3F\x20\x48\xE3\x79\x20\x64\xE0\x6E\x68\x20\x6D\u1ED9\x74\x20\x74\xED\x20\x74\x68\u1EDD\x69\x20\x67\x69\x61\x6E\x20\x76\xE0\x20\x74\x68\u1EED\x20\x6E\x67\x68\x69\u1EC7\x6D\x20\x6E\xF3\x20\x6E\x68\xE9\x2E\x20\x3C\x2F\x70\x3E\x3C\x64\x69\x76\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x62\x74\x6E\x2D\x63\x6F\x6E\x74\x69\x6E\x75\x65\x27\x3E\x4F\x6B\x2E\x20\x58\x65\x6D\x20\x74\x68\u1EED\x20\x74\x68\xF4\x69\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x62\x74\x6E\x2D\x63\x6F\x6E\x74\x69\x6E\x75\x65\x20\x6E\x6F\x27\x3E\x4B\x68\xF4\x6E\x67\x20\x6E\x68\xE9\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x2F\x64\x69\x76\x3E", "\x2E\x74\x65\x78\x74\x2D\x62\x6F\x78", "\x63\x6C\x69\x63\x6B", "\x2E\x6E\x6F", "\x68\x72\x65\x66", "\x6C\x6F\x63\x61\x74\x69\x6F\x6E", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2E\x76\x6E\x2F", "\x6F\x6E", "\x70\x6C\x61\x79", "\x67\x65\x74", "\x23\x69\x6E\x74\x72\x6F", "\x72\x65\x61\x64\x79", "\x2E\x62\x74\x6E\x2D\x63\x6F\x6E\x74\x69\x6E\x75\x65", "\x35\x30\x30", "\x73\x6C\x6F\x77", "\x72\x75\x6E", "\x61\x64\x64\x43\x6C\x61\x73\x73", "\x73\x68\x6F\x77", "\x2E\x73\x68\x69\x70", "\x2E\x6E\x68\x61\x6E\x68\x61\x6E\x67", "\x31\x30\x30", "\x2E\x63\x68\x61\x79\x78\x65", "\x66\x61\x64\x65\x4F\x75\x74", "\x2E\x73\x68\x69\x70\x2C\x20\x2E\x6E\x68\x61\x6E\x68\x61\x6E\x67", "\x66\x61\x64\x65\x49\x6E", "\x2E\x73\x75\x6E", "\x2E\x63\x6F\x6D\x70\x61\x6E\x79", "\x2E\x68\x6F\x6D\x65", "\x2E\x73\x65\x63\x74\x69\x6F\x6E\x31", "\x31\x30\x30\x30", "\x2E\x70\x6F\x70\x75\x70\x31", "\x31\x35\x30\x30", "\x3C\x70\x3E\x53\x65\x6F\x20\x70\x68\xEC\x20\x63\xE1\x69\x20\u0111\xE3\x20\x72\u1ED3\x69\x20\x6C\xE0\x6D\x20\x73\x61\x75\x20\x6E\x61\x6B\x2E\x3C\x2F\x70\x3E", "\x68\x74\x6D\x6C", "\x2E\x63\x68\x75\x70\x68\x69\x6E\x68", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x6E\x68\x61\x79\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x34\x34\x30\x70\x78\x3B\x62\x6F\x74\x74\x6F\x6D\x3A\x20\x2D\x35\x38\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x68\x61\x79\x22\x20\x2F\x3E", "\x2E\x69\x6D\x61\x67\x65\x73", "\x3C\x70\x3E\u0110\u1EE9\x6E\x67\x20\x79\xEA\x6E\x20\x74\x61\x20\x63\x68\u1EE5\x70\x20\x6B\x68\xF4\x6E\x67\x20\x74\x61\x20\u0111\xE1\x20\x63\x68\x6F\x20\x70\x68\xE1\x74\x20\x67\x69\u1EDD\x3C\x2F\x70\x3E", "\x3C\x70\x3E\x31\x2E\x2E\x2E\x32\x2E\x2E\x2E\x33\x3C\x2F\x70\x3E", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x6F\x6B\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x34\x30\x30\x70\x78\x3B\x62\x6F\x74\x74\x6F\x6D\x3A\x20\x2D\x31\x38\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6F\x6B\x22\x20\x2F\x3E", "", "\x68\x69\x64\x65", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x74\x69\x6D\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x34\x30\x30\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x6D\x22\x20\x2F\x3E", "\x3C\x70\x3E\x51\x75\xFD\x20\x73\u1EDD\x20\x74\u1ED9\x63\x20\x71\x75\xE1\x3C\x2F\x70\x3E", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x37\x34\x35\x32\x63\x66\x38\x62\x30\x66\x65\x34\x64\x65\x36\x63\x34\x34\x65\x62\x66\x38\x61\x37\x64\x39\x33\x30\x31\x64\x35\x38\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x33\x34\x36\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x2F\x3E", "\x3C\x70\x3E\u0110\xFA\x6E\x67\x20\x6C\xE0\x20\x49\x64\x6F\x6C\x3C\x2F\x70\x3E", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x62\x63\x38\x66\x37\x62\x33\x33\x63\x31\x61\x63\x36\x63\x33\x61\x38\x33\x33\x38\x33\x30\x62\x35\x66\x35\x39\x33\x61\x39\x30\x62\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x33\x34\x36\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x2F\x3E", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x41\x53\x30\x30\x33\x35\x38\x30\x5F\x32\x30\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x33\x34\x36\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x2F\x3E", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x41\x53\x30\x30\x33\x35\x38\x30\x5F\x30\x32\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x33\x34\x36\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x2F\x3E", "\x3C\x70\x3E\xD4\x69\x2E\x2E\x2E\x20\x44\u1EC5\x20\x74\x68\u01B0\u01A1\x6E\x67\x20\x71\x75\xE1\x20\xE0\x3C\x2F\x70\x3E", "\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F\x65\x62\x65\x32\x33\x32\x65\x36\x39\x37\x66\x35\x35\x63\x31\x34\x31\x33\x39\x64\x64\x34\x34\x34\x37\x35\x61\x65\x63\x63\x61\x38\x2E\x67\x69\x66\x22\x20\x61\x6C\x74\x3D\x22\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20\x33\x34\x36\x70\x78\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x22\x20\x2F\x3E", "\x3C\x70\x3E\x4D\u1ED9\x74\x20\x74\x68\u1EDD\x69\x20\x67\x69\x61\x6E\x20\x73\x61\x75\x2E\x2E\x2E\x3C\x2F\x70\x3E", "\x2E\x73\x65\x63\x74\x69\x6F\x6E\x20\x69\x6D\x67", "\x2E\x73\x65\x63\x74\x69\x6F\x6E", "\x2E\x63\x68\x75\x70\x68\x69\x6E\x68\x31", "\x2E\x6C\x61\x6D\x76\x69\x65\x63", "\x70\x61\x75\x73\x65", "\x23\x61\x75\x74\x6F\x6D\x70\x33", "\x61\x63\x74\x69\x76\x65", "\x2E\x74\x72\x61\x6F\x62\x61\x6E\x68", "\x2E\x70\x68\x61\x6F\x2D\x68\x6F\x61", "\x2E\x73\x65\x63\x74\x69\x6F\x6E\x32", "\x2E\x73\x65\x63\x74\x69\x6F\x6E\x33", "\x23\x77\x6F\x77\x73\x6C\x69\x64\x65\x72\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x31", "\x2E\x74\x68\x65\x2D\x65\x6E\x64", "\x2E\x73\x65\x63\x74\x69\x6F\x6E\x30"]; var options = { strings: [_0xae4a[0]], typeSpeed: 40 }; var typed = new Typed(_0xae4a[1], options); $(document)[_0xae4a[7]](_0xae4a[2], _0xae4a[3], function () { window[_0xae4a[5]][_0xae4a[4]] = _0xae4a[6] }); jQuery(document)[_0xae4a[11]](function (_0xba2fx3) { setTimeout(() => { _0xba2fx3(_0xae4a[10])[_0xae4a[9]](0)[_0xae4a[8]]() }, 4000) }); $(document)[_0xae4a[7]](_0xae4a[2], _0xae4a[12], function () { $(_0xae4a[65])[_0xae4a[22]](1000, function () { function _0xba2fx4() { $(_0xae4a[28])[_0xae4a[24]](100, function () { $(_0xae4a[27])[_0xae4a[24]](_0xae4a[13], () => { $(_0xae4a[26])[_0xae4a[24]](_0xae4a[13], () => { $(_0xae4a[25])[_0xae4a[24]](_0xae4a[14], () => { $(_0xae4a[18])[_0xae4a[17]]()[_0xae4a[16]](_0xae4a[15]); setTimeout(() => { $(_0xae4a[19])[_0xae4a[17]](_0xae4a[14]); setTimeout(() => { $(_0xae4a[23])[_0xae4a[22]](_0xae4a[20], () => { $(_0xae4a[21])[_0xae4a[17]]()[_0xae4a[16]](_0xae4a[15]); setTimeout(() => { _0xba2fx5() }, 5000) }) }, 4000) }, 4000) }) }) }) }) } _0xba2fx4(); function _0xba2fx5() { $(_0xae4a[28])[_0xae4a[22]](_0xae4a[20], () => { $(_0xae4a[53])[_0xae4a[17]](_0xae4a[20], () => { $(_0xae4a[55])[_0xae4a[24]](1000, () => { $(_0xae4a[30])[_0xae4a[24]](1500, () => { setTimeout(() => { $(_0xae4a[30])[_0xae4a[22]](_0xae4a[29]); $(_0xae4a[55])[_0xae4a[22]](_0xae4a[31], () => { $(_0xae4a[34])[_0xae4a[24]](100, function () { $(_0xae4a[30])[_0xae4a[24]]()[_0xae4a[33]](_0xae4a[32]); setTimeout(() => { $(_0xae4a[34])[_0xae4a[22]](); $(_0xae4a[54])[_0xae4a[17]](_0xae4a[14], () => { $(_0xae4a[36])[_0xae4a[33]](_0xae4a[35]); $(_0xae4a[30])[_0xae4a[33]](_0xae4a[37]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[33]](_0xae4a[38]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[39]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[41]]()[_0xae4a[33]](_0xae4a[40]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[42]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[17]]()[_0xae4a[33]](_0xae4a[43]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[44]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[33]](_0xae4a[45]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[46]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[41]]()[_0xae4a[33]](_0xae4a[40]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[47]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[33]](_0xae4a[40]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[48]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[17]]()[_0xae4a[33]](_0xae4a[49]); $(_0xae4a[36])[_0xae4a[33]](_0xae4a[50]); setTimeout(() => { $(_0xae4a[30])[_0xae4a[33]](_0xae4a[51]); $(_0xae4a[52])[_0xae4a[41]](); setTimeout(() => { $(_0xae4a[53])[_0xae4a[41]](); _0xba2fx6() }, 1000) }, 3000) }, 3000) }, 3000) }, 3000) }, 3000) }, 3000) }, 3000) }, 3000) }) }, 5000) }) }) }, 2000) }) }) }) }) } function _0xba2fx6() { $(_0xae4a[53])[_0xae4a[22]](100, () => { $(_0xae4a[10])[_0xae4a[9]](0)[_0xae4a[56]](); $(_0xae4a[61])[_0xae4a[24]](100, () => { $(_0xae4a[57])[_0xae4a[9]](0)[_0xae4a[8]](); $(_0xae4a[59])[_0xae4a[16]](_0xae4a[58]); setTimeout(() => { $(_0xae4a[60])[_0xae4a[17]](); setTimeout(() => { $(_0xae4a[61])[_0xae4a[41]](); $(_0xae4a[62])[_0xae4a[17]](); setTimeout(() => { $(_0xae4a[63])[_0xae4a[41]](); $(_0xae4a[64])[_0xae4a[17]]() }, 70000) }, 10000) }, 5000) }) }) } }) })
+var options = {
+    strings: [
+        "<p>Hi công túa,</p><p>Công túa có biết trang này là gì không? Hãy dành một ít thời gian và thử nghiệm nó nhé. </p><div><button class='btn-continue'>Thử thôi</button><button class='btn-continue no'>Không nhé</button></div>",
+    ],
+    typeSpeed: 40,
+};
+
+var typed = new Typed(".text-box", options);
+
+$(document).on("click", ".no", function () {
+    window.location.href = "https://www.google.com.vn/";
+});
+
+jQuery(document).ready(function ($) {
+    setTimeout(() => {
+        $("#intro").get(0).play();
+    }, 4000)
+})
+
+$(document).on("click", ".btn-continue", function () {
+
+    $(".section0").fadeOut(1000, function () {
+        function section1() {
+            $(".section1").fadeIn(100, function () {
+
+                $('.home').fadeIn('500', () => {
+                    $('.company').fadeIn('500', () => {
+                        $('.sun').fadeIn('slow', () => {
+                            $('.ship').show().addClass('run');
+                            setTimeout(() => {
+                                $('.nhanhang').show('slow');
+                                setTimeout(() => {
+                                    $('.ship, .nhanhang').fadeOut('100', () => {
+                                        $(".chayxe").show().addClass("run");
+                                        setTimeout(() => { section2(); }, 5000)
+                                    });
+                                }, 4000)
+                            }, 4000)
+                        });
+                    });
+                });
+            })
+        }
+        section1();
+
+        function section2() {
+            $(".section1").fadeOut('100', () => {
+                $('.section').show('100', () => {
+                    $(".lamviec").fadeIn(1000, () => {
+                        $('.popup1').fadeIn(1500, () => {
+                            setTimeout(() => {
+                                $('.popup1').fadeOut('1000');
+                                $(".lamviec").fadeOut('1500', () => {
+                                    $(".chuphinh").fadeIn(100, function () {
+                                        $('.popup1').fadeIn().html('<p>Seo phì cái đã rồi làm sau nak.</p>');
+                                        setTimeout(() => {
+                                            $(".chuphinh").fadeOut();
+                                            $(".chuphinh1").show('slow', () => {
+                                                $('.images').html('<img src="assets/images/nhay.gif" alt="" style="width: 440px;bottom: -58px;display:block;" class="nhay" />')
+                                                $('.popup1').html('<p>Đứng yên ta chụp không ta đá cho phát giờ</p>');
+                                                setTimeout(() => {
+                                                    $('.popup1').html('<p>1...2...3</p>');
+                                                    $('.images').html('<img src="assets/images/ok.gif" alt="" style="width: 400px;bottom: -18px;display: block;" class="ok" />')
+                                                    setTimeout(() => {
+                                                        $('.popup1').hide().html('');
+                                                        $('.images').html('<img src="assets/images/tim.gif" alt="" style="width: 350px;display: block;" class="tim" />')
+                                                        setTimeout(() => {
+                                                            $('.popup1').show().html('<p>Người tiếp theo</p>');
+                                                            $('.images').html('<img src="assets/images/7452cf8b0fe4de6c44ebf8a7d9301d58.gif" alt="" style="width: 346px;display: block;" />')
+                                                            setTimeout(() => {
+                                                                $('.popup1').html('<p>Vào nhanh nào</p>');
+                                                                $('.images').html('<img src="assets/images/bc8f7b33c1ac6c3a833830b5f593a90b.gif" alt="" style="width: 346px;display: block;" />')
+                                                                setTimeout(() => {
+                                                                    $('.popup1').hide().html('');
+                                                                    $('.images').html('<img src="assets/images/AS003580_20.gif" alt="" style="width: 346px;display: block;" />')
+                                                                    setTimeout(() => {
+                                                                        $('.popup1').html('');
+                                                                        $('.images').html('<img src="assets/images/AS003580_02.gif" alt="" style="width: 400px;display: block;" />')
+                                                                        setTimeout(() => {
+                                                                            $('.popup1').show().html('<p>Ôi... Dễ thương quá à</p>');
+                                                                            $('.images').html('<img src="assets/images/ebe232e697f55c14139dd44475aecca8.gif" alt="" style="width: 346px;display: block;" />')
+                                                                            setTimeout(() => {
+                                                                                $('.popup1').html('<p>Một lát sau...</p>');
+                                                                                $('.section img').hide();
+                                                                                setTimeout(() => {
+                                                                                    $(".section").hide();
+                                                                                    section3();
+                                                                                }, 1000)
+                                                                            }, 3000)
+                                                                        }, 3000)
+                                                                    }, 3000)
+                                                                }, 3000)
+                                                            }, 3000)
+                                                        }, 3000)
+                                                    }, 3000)
+                                                }, 3000)
+                                            });
+
+                                        }, 5000)
+                                    });
+                                });
+                            }, 2000);
+                        });
+                    });
+                })
+            });
+        }
+
+        function section3() {
+            // setTimeout(() => {
+            $(".section").fadeOut(100, () => {
+                $("#intro").get(0).pause();
+                $(".section2").fadeIn(100, () => {
+                    $("#automp3").get(0).play();
+                    $('.traobanh').addClass('active');
+                    setTimeout(() => {
+                        $('.phao-hoa').show();
+                        setTimeout(() => {
+                            $('.section2').hide();
+                            $('.section3').show();
+                            setTimeout(() => {
+                                $('#wowslider-container1').hide();
+                                $('.the-end').show();
+                            }, 70000);
+                        }, 10000);
+
+                    }, 5000);
+                });
+            });
+            // }, 3000)
+        }
+    });
+});
