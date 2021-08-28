@@ -68,7 +68,7 @@ $(document).on("click", ".btn-continue", function () {
                                                             $('.popup1').show().html('<p>Người tiếp theo</p>');
                                                             $('.images').html('<img src="assets/images/7452cf8b0fe4de6c44ebf8a7d9301d58.gif" alt="" style="width: 346px;display: block;" />')
                                                             setTimeout(() => {
-                                                                $('.popup1').html('<p>Vào nhanh nào</p>');
+                                                                $('.popup1').html('<p>Chị vào nhanh nào không e bẻ cổ chị giờ :) Chị ôm con heo chị về đi</p>');
                                                                 $('.images').html('<img src="assets/images/bc8f7b33c1ac6c3a833830b5f593a90b.gif" alt="" style="width: 346px;display: block;" />')
                                                                 setTimeout(() => {
                                                                     $('.popup1').hide().html('');
