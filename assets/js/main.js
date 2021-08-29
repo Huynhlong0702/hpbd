@@ -1,6 +1,6 @@
 var options = {
     strings: [
-        "<p>Hi công túa,</p><p>Công túa có biết trang này là gì không? Hãy dành một ít thời gian và thử nghiệm nó nhé. </p><div><button class='btn-continue'>Thử thôi</button><button class='btn-continue no'>Không nhé</button></div>",
+        "<p>Hi công túa,</p><p>Chào mừng công túa đã đến nơi dành riêng cho Công túa ThiThi. Hãy dành một ít thời gian và thử nghiệm nó nhé. </p><div><button class='btn-continue'>Thử thôi</button><button class='btn-continue no'>Không nhé</button></div>",
     ],
     typeSpeed: 40,
 };
@@ -59,7 +59,7 @@ $(document).on("click", ".btn-continue", function () {
                                                 $('.images').html('<img src="assets/images/nhay.gif" alt="" style="width: 440px;bottom: -58px;display:block;" class="nhay" />')
                                                 $('.popup1').html('<p>Đứng yên ta chụp không ta đá cho phát giờ</p>');
                                                 setTimeout(() => {
-                                                    $('.popup1').html('<p>1...2...3</p>');
+                                                    $('.popup1').html('<p>1...2...3 Ok chưa...</p>');
                                                     $('.images').html('<img src="assets/images/ok.gif" alt="" style="width: 400px;bottom: -18px;display: block;" class="ok" />')
                                                     setTimeout(() => {
                                                         $('.popup1').hide().html('');
